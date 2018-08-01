@@ -1,4 +1,4 @@
-\LoadClass{article}
+\LoadClass[10pt]{article}
 
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{resume_template}[2016/09/28 resume template class]

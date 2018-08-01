@@ -2,13 +2,16 @@
 
 \pagenumbering{gobble}
 \usepackage[margin=1.0in]{geometry}
+\usepackage{multicol}
 \begin{document}
 
 \input{header.tex}
-\input{education.tex}
-\input{publicprojects.tex}
+\begin{multicols}{2}
+    \input{publicprojects.tex}
+\columnbreak{}
+    \input{education.tex}
+\end{multicols}
 \input{experience.tex}
-\input{skill.tex}
 \input{activities.tex}
 
 \end{document}
